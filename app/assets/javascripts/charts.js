@@ -81,7 +81,7 @@ function line_chart(container, data) {
   var svg_element = container + " svg";
   var info_element = container + " .infobox";
   
-  var margins = [70, 25, 55, 75];
+  var margins = [105, 25, 55, 75];
   
   var width = $(container).width() - margins[1] - margins[3];
   var height = $(container).height() - margins[0] - margins[2];
